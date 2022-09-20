@@ -1,0 +1,123 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'ubuntu', sans-serif;
+    size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+h3{
+    font-weight: bold;
+    font-family: 'ubuntu', sans-serif;
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar{
+    padding-bottom:4.5rem ;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.navbar-nav{
+    margin-right: 3rem;
+}
+.nav-link{
+    font-family: 'Montserrat-light';
+    font-size: 1.2rem;
+}
+.navbar-brand{
+    font-family: 'ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.download-button{
+    margin: 5% 3%;
+}
+.title-img{
+    width: 150%;
+    transform: rotate(25deg);
+}
+#features{
+    text-align: center;
+    padding: 7%;
+    background-color: #fff;
+}
+.features-img{
+    color: #ef8172;
+    margin-bottom: 5%;
+}
+.features-img:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 50px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px ;
+}
+.carousel-item{
+    padding: 7% 15% 3%;
+}
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+.card{
+    margin:50px 20px;
+}
+#cta{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    font-weight: bolder;
+}
+.cta-btn{
+    margin: 15px 10px 10px ;
+}
+#footer{
+    text-align: center;
+    padding: 2% 15%;
+}
+.footer-icon{
+    margin: 10px 15px 20px;
+    color: #000;
+}
+.footer-icon:hover{
+    color: blue;
+}
+@media (max-width:1028px) {
+    #title{
+        text-align: center;
+   }
+    .title-img{
+        width: 60%;
+        transform: rotate(0deg);
+   }
+}
